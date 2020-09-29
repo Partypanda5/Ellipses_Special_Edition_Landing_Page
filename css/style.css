@@ -1,0 +1,195 @@
+@font-face {
+    font-family: DIN;
+    src: url(../assets/fonts/DIN.ttf);
+  }
+
+@font-face {
+  font-family: FUTURAM;
+  src: url(../assets/fonts/FUTURAM.ttf);
+}
+
+body, html 
+{
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#textContainer
+{
+    position: absolute;
+    top: 18.5vw;
+    left: 2.1vw;
+    z-index: 5;
+    width: 24%;
+    height: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: FUTURAM;
+    font-weight: 100;
+    text-align: justify;
+    font-size: 90%;
+    padding: 10px;
+    padding-top: 0 !important;
+}
+
+#subtitle
+{
+    position: absolute;
+    z-index: 5;
+    color: rgba(225, 166, 255, 0.6);
+    font-family: DIN;
+    font-size: 150%;
+    font-weight: 300;
+    top: 11vw;
+    left: 2.5vw;
+    width: 25%;
+    text-align: justify;
+}
+
+.headingImage
+{
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    top: 2vw;
+    left: 2vw;
+    z-index: 5;
+}
+
+
+.headingImage:hover
+{
+  cursor: pointer;
+}
+
+#imageContainer
+{
+  position: absolute;
+  z-index: 5;
+  left: 32vw;
+  top: 8vw;
+}
+
+.icon
+{
+  position: relative;
+  display: inline-block;
+  width: 16vw;
+  height: auto;
+}
+
+.icon:hover
+{
+  cursor: pointer;
+}
+
+
+.generalSmallBlock
+{
+  position: absolute;
+  z-index: 6;
+  width: 60px;
+  height: 70px;
+  background-color: rgba(0,0,0,0);
+}
+
+.generalSmallBlock:hover
+{
+  cursor: pointer;
+}
+
+#smallBlock1
+{
+  top: 0vw;
+  left: 1vw;
+}
+
+#smallBlock2
+{
+  top: 0vw;
+  left: 17vw;
+}
+
+#smallBlock3
+{
+  top: 0vw;
+  left: 33vw;
+}
+
+#smallBlock4
+{
+  top: 0vw;
+  left: 49.5vw;
+}
+
+#smallBlock5
+{
+  top: 21vw;
+  left: 1vw;
+}
+
+#smallBlock6
+{
+  top: 21vw;
+  left: 17vw;
+}
+
+#smallBlock7
+{
+  top: 21vw;
+  left: 33vw;
+}
+
+#smallBlock8
+{
+  top: 21vw;
+  left: 49.5vw;
+}
+
+.launchButton
+{
+  position: relative;
+  width: 18vw;
+  height: auto;
+}
+
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index:3;
+  opacity:1;
+  mix-blend-mode: multiply;
+
+}
+
+.gradientBackground 
+{
+    background-image: url("../assets/images/backgrounds/toxicsunset.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* SCROLL BAR STYLING */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(233, 160, 148);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(233, 160, 148);
+    border-radius: 10px;
+  }
