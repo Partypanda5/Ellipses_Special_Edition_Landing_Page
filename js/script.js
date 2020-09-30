@@ -27,7 +27,7 @@ var RG = document.getElementById('RG');
 
 if (checkTime < 20 && checkTime >= 12)
 {
-    backgroundImage.style.backgroundImage="url(../assets/images/backgrounds/toxicsunset.jpg)";
+    backgroundImage.style.backgroundImage="url(assets/images/backgrounds/toxicsunset.jpg)";
     headingImage.src="assets/images/headings/Joburglastsheader1.png";
     subtitle.style.color = "rgba(225, 166, 255, 0.6)"
     console.log("toxicsunset");
@@ -35,7 +35,7 @@ if (checkTime < 20 && checkTime >= 12)
 }
 else if (checkTime >= 20 || checkTime < 5) 
 {
-    backgroundImage.style.backgroundImage="url(../assets/images/backgrounds/nightlightpollution.jpg)";
+    backgroundImage.style.backgroundImage="url(assets/images/backgrounds/nightlightpollution.jpg)";
     headingImage.src="assets/images/headings/Joburglastsheader2.png";
     subtitle.style.color = "rgba(247, 233, 217, 0.6)"
     console.log("nighttimepollution");
@@ -43,7 +43,7 @@ else if (checkTime >= 20 || checkTime < 5)
 }
 else if (checkTime >= 5 && checkTime <= 12)
 {
-    backgroundImage.style.backgroundImage="url(../assets/images/backgrounds/dustydawn.jpg)";
+    backgroundImage.style.backgroundImage="url(assets/images/backgrounds/dustydawn.jpg)";
     headingImage.src="assets/images/headings/Joburglastsheader3.png";
     subtitle.style.color = "rgba(247, 223, 135, 0.6)"
     console.log("dustydawn");
@@ -51,7 +51,7 @@ else if (checkTime >= 5 && checkTime <= 12)
 }
 else
 {
-    backgroundImage.style.backgroundImage="url(../assets/images/backgrounds/toxicsunset.jpg)";
+    backgroundImage.style.backgroundImage="url(assets/images/backgrounds/toxicsunset.jpg)";
     headingImage.style.src="assets/images/headings/Joburglastsheader1.png";
     subtitle.style.color = "rgba(225, 166, 255, 0.6)"
     console.log(checkTime);
