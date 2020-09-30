@@ -1,0 +1,173 @@
+@media (min-width: 768px) and (max-width: 1024), screen and (orientation: portrait)
+{
+
+    body, html 
+    {
+        overflow-y: scroll;
+        height: 110%;
+    }
+    #textContainer
+    {
+        top: 40vw;
+        width: 30%;
+    }
+
+    .icon
+    {
+        position: relative;
+        display: inline-block;
+        width: 30vw;
+        left: 5vw;
+        height: auto;
+    }
+
+    .gradientBackground 
+    {
+        height: 110%;
+        width: auto;
+    }
+
+    #ellipsesLogo
+    {
+        position: absolute;
+        left: 90vw;
+        top: 1vw;
+        width: 8vw;
+        height: auto;
+        z-index: 5;
+    }
+
+    #smallBlock1
+    {
+        top: 1vw;
+        left: 7vw;
+    }
+
+    #smallBlock2
+    {
+        top: 1vw;
+        left: 37vw;
+    }
+
+    #smallBlock3
+    {
+        top: 40vw;
+        left: 7vw;
+    }
+
+    #smallBlock4
+    {
+        top: 40vw;
+        left: 37vw;
+    }
+
+    #smallBlock5
+    {
+        top: 78vw;
+        left: 7vw;
+    }
+
+    #smallBlock6
+    {
+        top: 78vw;
+        left: 37vw;
+    }
+
+    #smallBlock7
+    {
+        top: 116vw;
+        left: 7vw;
+    }
+
+    #smallBlock8
+    {
+        top: 116vw;
+        left: 37vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 768), screen and (orientation: landscape)
+{
+
+    body, html 
+    {
+        overflow-y: scroll;
+        height: 110%;
+    }
+    #textContainer
+    {
+        top: 25vw;
+        width: 30%;
+    }
+    .icon
+    {
+        position: relative;
+        display: inline-block;
+        width: 20vw;
+        left: 5vw;
+        height: auto;
+    }
+    .gradientBackground 
+    {
+        height: 110%;
+        width: auto;
+    }
+
+    #ellipsesLogo
+    {
+        position: absolute;
+        left: 93vw;
+        top: 1vw;
+        width: 5vw;
+        height: auto;
+        z-index: 5;
+    }
+
+    #smallBlock1
+    {
+        top: 0vw;
+        left: 5vw;
+    }
+
+    #smallBlock2
+    {
+        top: 0vw;
+        left: 25vw;
+    }
+
+    #smallBlock3
+    {
+        top: 0vw;
+        left: 45vw;
+    }
+
+    #smallBlock4
+    {
+        top: 25vw;
+        left: 5vw;
+    }
+
+    #smallBlock5
+    {
+        top: 25vw;
+        left: 25vw;
+    }
+
+    #smallBlock6
+    {
+        top: 25vw;
+        left: 45vw;
+    }
+
+    #smallBlock7
+    {
+        top: 50vw;
+        left: 5vw;
+    }
+
+    #smallBlock8
+    {
+        top: 50vw;
+        left: 25vw;
+    }
+}
