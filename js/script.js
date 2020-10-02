@@ -307,3 +307,27 @@ headingImage.addEventListener('click', () => {
     textBlock.innerHTML = 
     "<p class='biographyTitle'>Abstract:</p><p>Works by Riley Grant & William Shoki, Sara-Aimee Verity &amp; Lara Cunha, Counterspace Studio, Dorothee Kreutzfeldt, Nina Barnett & Jeremy Bolen, Brett Pyper, Nkgopoleng Moloi, Brigitta Stone-Johnson and Digicleanse</p><p>Editors: Naadira Patel, Jarrett Erasmus, Tara Weber, Skye Quadling, Andrei van Wyk, Karin Tan and Ruth Sacks</p><p>Johannesburg Lasts is a project that aims to think about residues, traces and the lastingness of the legacies that built the city. Conceptualised across a collective seven practitioners the project looks at xxxxx</p><p>Nine projects tackle the idea of the last or the lasting or the lost through forms that push at and interrogate how Johannesburg lives on, but more importantly how the effects of Johannesburg’s birth ultimately affect contemporary life today. Some of the themes include securitization and surveillance, the stickiness of dust, narratives of mobility, histories of jazz, radioactive spirits and heaps of potential dust.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/> <br/></p>";
 });
+
+
+//----------------------------------ACCORDIAN LOGIC------------------------------
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+//------------------------------END ACCORDIAN LOGIC------------------------------
+
+//--------------------------------CLICK ICON LOGIC------------------------------
+
+//--------------------------------CLICK ICON LOGIC------------------------------
