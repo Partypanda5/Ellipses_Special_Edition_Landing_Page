@@ -8,10 +8,16 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
         width: 100%;
+        image-rendering: optimizeQuality;
     }
 
     #tsparticles 
@@ -28,7 +34,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -179,6 +185,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -199,7 +210,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -349,6 +360,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     #ellipsesLogo
     {
         position: absolute;
@@ -411,6 +427,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     #ellipsesLogo
     {
         position: absolute;
@@ -467,10 +488,15 @@
 {
     body, html 
     {
-        height: 265%;
+        height: 290%;
         overflow-y: visible;
         padding: 0;
         margin: 0;
+    }
+
+    #digiClenseWrapper
+    {
+        display: none;
     }
 
     .gradientBackground 
@@ -493,7 +519,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -643,6 +669,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -663,7 +694,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -815,6 +846,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -835,7 +871,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -986,6 +1022,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -1006,7 +1047,7 @@
     #subtitle
     {
         top: 25vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -1157,6 +1198,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -1177,7 +1223,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -1328,6 +1374,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -1348,7 +1399,7 @@
     #subtitle
     {
         top: 20vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 
@@ -1499,6 +1550,11 @@
         margin: 0;
     }
 
+    #digiClenseWrapper
+    {
+        display: none;
+    }
+
     .gradientBackground 
     {
         height: 100%;
@@ -1519,7 +1575,7 @@
     #subtitle
     {
         top: 25vw;
-        left: 10vw;
+        left: 3vw;
         width: 80%;
     }
 

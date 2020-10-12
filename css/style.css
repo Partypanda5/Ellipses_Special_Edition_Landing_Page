@@ -8,6 +8,37 @@
   src: url(../assets/fonts/FUTURAM.ttf);
 }
 
+#digiClenseWrapper
+{
+    position: relative;
+    z-index: 8;
+}
+
+#iStone
+{
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  z-index: 8;
+  top: 48vw;
+  left: 38vw;
+}
+
+.close:before {
+  content: '✕';
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 10;
+  color: black;
+  top: 48vw;
+  left: 67vw;
+}
+
 .accordion
 {
     display: none;
@@ -189,6 +220,25 @@ body, html
   position: relative;
   width: 18vw;
   height: auto;
+}
+
+.launchButton
+{
+  display: block;
+  background-color: rgba(233, 160, 148, 1);
+  color: black;
+  font-family: FUTURAM;
+  cursor: pointer;
+  padding: 18px;
+  width: 95%;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.8s;
+  margin-top: 20px;
+  position: relative;
+  right: 0px;
 }
 
 #tsparticles 
