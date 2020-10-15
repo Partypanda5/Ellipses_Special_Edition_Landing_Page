@@ -8,6 +8,17 @@
   src: url(../assets/fonts/FUTURAM.ttf);
 }
 
+#iStoneMobile
+{
+    display: none;
+}
+
+#digiClenseWrapperMobile
+{
+    display: none;
+}
+
+
 #digiClenseWrapper
 {
     position: relative;
@@ -255,6 +266,13 @@ body, html
 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 130%;
+  font-weight: 500;
+}
+
+.editorialTextTitle
+{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 200%;
   font-weight: 500;
 }
 

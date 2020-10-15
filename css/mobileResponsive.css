@@ -2,10 +2,18 @@
 {
     body, html 
     {
-        height: 290%;
+        height: 300%;
         overflow-y: visible;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
+    }
+
+    #iStoneMobile
+    {
+        width: 90vw;
+       position: relative;
+       right: 5vw;
     }
 
     #digiClenseWrapper
@@ -83,6 +91,13 @@
     .biographyTitle
     {
         color: rgba(0,0,0);
+        font-size: 130%;
+        font-weight: 500;
+    }
+
+    .editorialTextSubtitle
+    {
+        color:  rgba(255, 255, 255, 0.8);
         font-size: 130%;
         font-weight: 500;
     }
@@ -179,11 +194,20 @@
 {
     body, html 
     {
-        height: 270%;
+        height: 300%;
         overflow-y: visible;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
     }
+
+    #iStoneMobile
+    {
+       width: 90vw;
+       position: relative;
+       right: 5vw;
+    }
+
 
     #digiClenseWrapper
     {
@@ -354,10 +378,18 @@
 {
     body, html 
     {
-        height: 300%;
+        height: 310%;
         overflow-y: visible;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
+    }
+
+    #iStoneMobile
+    {
+       width: 90vw;
+       position: relative;
+       right: 5vw;
     }
 
     #digiClenseWrapper
@@ -423,8 +455,16 @@
     {
         height: 285%;
         overflow-y: visible;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
+    }
+
+    #iStoneMobile
+    {
+       width: 90vw;
+       position: relative;
+       right: 5vw;
     }
 
     #digiClenseWrapper
@@ -488,10 +528,18 @@
 {
     body, html 
     {
-        height: 290%;
+        height: 300%;
         overflow-y: visible;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
+    }
+
+    #iStoneMobile
+    {
+       width: 90vw;
+       position: relative;
+       right: 5vw;
     }
 
     #digiClenseWrapper
@@ -625,6 +673,7 @@
         right: 0px;
         border-radius: 10px;
     }
+
     #CS
     {
         pointer-events: none;
@@ -663,10 +712,18 @@
 {
     body, html 
     {
-        height: 290%;
+        height: 300%;
         overflow-y: visible;
+        overflow-x: hidden;
         padding: 0;
         margin: 0;
+    }
+
+    #iStoneMobile
+    {
+       width: 90vw;
+       position: relative;
+       right: 5vw;
     }
 
     #digiClenseWrapper
@@ -844,6 +901,13 @@
         overflow-y: visible;
         padding: 0;
         margin: 0;
+    }
+
+    #iStoneMobile
+    {
+       width: 90vw;
+       position: relative;
+       right: 5vw;
     }
 
     #digiClenseWrapper

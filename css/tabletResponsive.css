@@ -14,6 +14,37 @@
         width: 30%;
     }
 
+    #iStoneMobile
+    {
+        display: none;
+    }
+    
+    #digiClenseWrapperMobile
+    {
+        display: none;
+    }
+
+    #iStone
+    {
+       width: 60vw;
+       position: absolute;
+       right: 0;
+       top: 83vw;
+       left: 25vw;
+    }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 10;
+        color: black;
+        top: 83vw;
+        left: 83vw;
+      }
+      
+
     #tsparticles
     {
         height: 45%;
@@ -116,7 +147,7 @@
     body, html 
     {
         overflow-y: scroll;
-        height: 110%;
+        height: 115%;
         padding: 0;
         margin: 0;
     }
@@ -125,6 +156,36 @@
         top: 40vw;
         width: 30%;
     }
+
+    #iStoneMobile
+    {
+        display: none;
+    }
+    
+    #digiClenseWrapperMobile
+    {
+        display: none;
+    }
+
+    #iStone
+    {
+       width: 70vw;
+       position: absolute;
+       right: 0;
+       top: 165vw;
+       left: 15vw;
+    }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 10;
+        color: black;
+        top: 165vw;
+        left: 82vw;
+      }
 
     #tsparticles
     {
@@ -229,7 +290,7 @@
     body, html 
     {
         overflow-y: scroll;
-        height: 110%;
+        height: 115%;
         padding: 0;
         margin: 0;
     }
@@ -237,6 +298,47 @@
     {
         top: 30vw;
         width: 32%;
+    }
+
+    
+    #iStoneMobile
+    {
+        display: none;
+    }
+    
+    #digiClenseWrapperMobile
+    {
+        display: none;
+    }
+
+    #iStone
+    {
+       width: 70vw;
+       position: absolute;
+       right: 0;
+       top: 165vw;
+       left: 15vw;
+    }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 10;
+        color: black;
+        top: 165vw;
+        left: 82vw;
+      }
+
+    #iStoneMobile
+    {
+        display: none;
+    }
+    
+    #digiClenseWrapperMobile
+    {
+        display: none;
     }
 
     #tsparticles
@@ -334,4 +436,38 @@
     {
         display: none;
     }
+}
+
+@media (min-width: 1366px) and (min-height: 1024px) and (orientation:landscape)
+{
+    #iStoneMobile
+    {
+        display: none;
+    }
+    
+    #digiClenseWrapperMobile
+    {
+        display: none;
+    }
+
+    #iStone
+    {
+       width: 60vw;
+       position: absolute;
+       right: 0;
+       top: 65vw;
+       left: 25vw;
+    }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 10;
+        color: black;
+        top: 65vw;
+        left: 83vw;
+      }
+      
 }
